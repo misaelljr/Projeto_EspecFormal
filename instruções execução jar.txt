@@ -1,0 +1,12 @@
+Instruções para execução do arquivo .jar
+
+— Localização jar
+MEF/binario jar/executar.jar
+
+— Execução no console
+
+o mef.txt e seq1.txt correspondem a um caso de teste “n-complete”
+java -jar executar.jar ./mef.txt ./seqs1.txt
+
+o mef1.txt e seq2.txt correspondem a um caso de teste “not n-complete”
+java -jar executar.jar ./mef1.txt ./seqs2.txt
