@@ -196,10 +196,9 @@ public class FuncoesMef {
 			for (int j = 0; j < vj.getOut().size(); j++) {
 				if (vj.getOut().get(j).getIn().equals(transicaoVi.getIn())){
 					transicaoVj = vj.getOut().get(j);
-					break;
 				}
 			}
-			if(transicaoVj!=null){
+			if((transicaoVj!=null) && (transicaoVi.getOut() !=null)){
 				if(transicaoVi.getOut().equals(transicaoVj.getOut())){
 					return isDistinguivel(transicaoVi.getDestino(), transicaoVj.getDestino());
 				}else{
